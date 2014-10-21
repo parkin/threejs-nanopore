@@ -1,0 +1,20 @@
+{
+  "name": "threejs-nanopore",
+  "version": "0.0.0",
+  "homepage": "https://github.com/parkin/threejs-nanopore",
+  "authors": [
+    "Will <wmparkin@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "threejs": "*"
+  }
+}
