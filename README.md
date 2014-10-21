@@ -5,7 +5,12 @@ Nanopore device drawn with threejs
 
 ## Installing dependencies
 
-[index.html](index.html) expects the file [bower_components/threejs/build/threejs.min.js](bower_components/threejs/build/threejs.min.js) to exist. You can do this by
+[index.html](index.html) expects certain dependencies. 
+
+1. `bower_components/threejs/build/threejs.min.js`
+2. `bower_components/stats.js/build/stats.min.js`
+
+You can install these dependencies a couple of ways:
 
 1. Using [bower](bower.io) to install dependencies.
 
@@ -13,12 +18,13 @@ Nanopore device drawn with threejs
 $ bower install
   ```
 
-2. Download [three.js](http://threejs.org/)'s [minified library](http://threejs.org/build/three.min.js) and put it in the appropriate subdirectory.
+2. Download the dependencies and put them in the appropriate subdirectory yourself.
 
   ```bash
 $ mkdir -p bower_components/threejs/build
 $ cd bower_components/threejs/build
-$ wget http://threejs.org/build/three.min.js
+$ wget http://threejs.org/build/three.min.js   # for three.js
+$ https://github.com/mrdoob/stats.js/raw/master/build/stats.min.js   # for stats.js
   ```
 
 ## Viewing
