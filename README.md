@@ -24,7 +24,7 @@ $ bower install
 $ mkdir -p bower_components/threejs/build
 $ cd bower_components/threejs/build
 $ wget http://threejs.org/build/three.min.js   # for three.js
-$ https://github.com/mrdoob/stats.js/raw/master/build/stats.min.js   # for stats.js
+$ wget https://github.com/mrdoob/stats.js/raw/master/build/stats.min.js   # for stats.js
   ```
 
 ## Viewing
