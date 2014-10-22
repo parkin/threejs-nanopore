@@ -1,5 +1,18 @@
-# Bower stuff
-bower_components
+# Bower stuff, except needed js files
+!bower_components
+bower_components/*
+
+!bower_components/threejs
+bower_components/threejs/*
+!bower_components/threejs/build
+bower_components/threejs/build/*
+!bower_components/threejs/build/three.min.js
+
+!bower_components/stats.js
+bower_components/stats.js/*
+!bower_components/stats.js/build
+bower_components/stats.js/build/*
+!bower_components/stats.js/build/stats.min.js
 
 # blender autosaves
 models/chip.blend?*
