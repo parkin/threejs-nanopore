@@ -1,3 +1,6 @@
 # Bower stuff
 bower_components
 
+# blender autosaves
+models/chip.blend?*
+
