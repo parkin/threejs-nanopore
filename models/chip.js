@@ -19,7 +19,7 @@
 	"materials" : [	{
 		"DbgColor" : 15658734,
 		"DbgIndex" : 0,
-		"DbgName" : "Material.001",
+		"DbgName" : "SiNx",
 		"blending" : "NormalBlending",
 		"colorAmbient" : [0.49794533158849674, 0.33196136445110724, 0.02733218358750067],
 		"colorDiffuse" : [0.49794533158849674, 0.33196136445110724, 0.02733218358750067],
@@ -27,9 +27,9 @@
 		"colorSpecular" : [0.6015228629112244, 0.6015228629112244, 0.6015228629112244],
 		"depthTest" : true,
 		"depthWrite" : true,
-		"shading" : "lambert",
+		"shading" : "Lambert",
 		"specularCoef" : 50,
-		"transparency" : 0.9370558738708496,
+		"transparency" : 0.8975601196289062,
 		"transparent" : true,
 		"vertexColors" : false
 	},
