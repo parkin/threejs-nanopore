@@ -14,6 +14,6 @@ bower_components/stats.js/*
 bower_components/stats.js/build/*
 !bower_components/stats.js/build/stats.min.js
 
-# blender autosaves
-models/chip.blend?*
+# blender anything
+models/chip.blend*
 
