@@ -27,9 +27,9 @@
 		"colorSpecular" : [0.6015228629112244, 0.6015228629112244, 0.6015228629112244],
 		"depthTest" : true,
 		"depthWrite" : true,
-		"shading" : "Lambert",
+		"shading" : "lambert",
 		"specularCoef" : 50,
-		"transparency" : 0.6370558738708496,
+		"transparency" : 0.9370558738708496,
 		"transparent" : true,
 		"vertexColors" : false
 	},
