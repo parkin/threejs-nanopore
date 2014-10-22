@@ -27,6 +27,12 @@ $ wget http://threejs.org/build/three.min.js   # for three.js
 $ wget https://github.com/mrdoob/stats.js/raw/master/build/stats.min.js   # for stats.js
   ```
 
+## Creating the JSONLoader-ready model
+
+The blender file is located at [models/chip.blend](models/chip.blend).
+You should install the [Three.js Blender Import/Export](https://github.com/mrdoob/three.js/tree/master/utils/exporters/blender) addon for [Blender](http://www.blender.org/) and export the Threejs model to [models/chip.js](models/chip.js).
+
+
 ## Viewing
 
 Start a simple server any way you know how, for example
