@@ -16,7 +16,7 @@
 		</style>
 	</head>
 	<body>
-		<script src="bower_components/threejs/build/three.min.js"></script>
+		<script src="bower_components/threejs/build/three.js"></script>
 
 		<script src="js/controls/TrackballControls.js"></script>
 
@@ -52,13 +52,25 @@
 				renderer.setSize( window.innerWidth, window.innerHeight );
 				document.body.appendChild( renderer.domElement );
 
-				// Set up cube
-				var geometry = new THREE.BoxGeometry(1,1,1);
-				var material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
-				cube = new THREE.Mesh( geometry, material );
-				scene.add( cube );
-
 				camera.position.z = 5;
+				camera.position.y = 5;
+
+				// add lighting
+				// add subtle blue ambient lighting
+				var ambientLight = new THREE.AmbientLight(0xAAAAAA);
+				scene.add(ambientLight);
+				// directional lighting
+				var directionalLight = new THREE.DirectionalLight(0xffffff);
+				directionalLight.position.set(1, 1, 1).normalize();
+				scene.add(directionalLight);
+
+				// Add model
+
+				var loader = new THREE.JSONLoader();
+				loader.load("models/chip.js", function(geometry, materials){
+					var mesh = new THREE.Mesh(geometry,new THREE.MeshFaceMaterial(materials));
+					scene.add(mesh);
+				});
 
 				// Add stats stuff
 				stats = new Stats();
